@@ -1,0 +1,23 @@
+{
+  "pluginName": "jisc_rdss_application",
+  "pluginAuthor": "Haplo Services",
+  "pluginVersion": 1,
+  "displayName": "Jisc RDM Shared Services Application",
+  "displayDescription": "Implementation of Jisc RDM Shared Services Lot 1 for the 'University of Jisc'",
+  "installSecret": "afbcc3f75c40242ee265b134f614ad271b7f1bb9",
+  "apiVersion": 4,
+  "depend": [
+      "hres_schema",
+      "hres_development_test_data",
+      "hres_repo_embargoes",
+      "hres_repo_ingest_workflow",
+      "hres_repo_simple_ingest",
+      "hres_repo_list_management",
+      "hres_repo_schema_data_recommended",
+      "jisc_event_bus"
+    ],
+  "load": [
+    ],
+  "respond": [
+    ]
+}

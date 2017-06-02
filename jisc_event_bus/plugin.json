@@ -1,0 +1,17 @@
+{
+  "pluginName": "jisc_event_bus",
+  "pluginAuthor": "Haplo Services",
+  "pluginVersion": 1,
+  "displayName": "Jisc RDSS Event Bus",
+  "displayDescription": "Implementation of messaging protocol for the Jisc RSS event bus",
+  "installSecret": "da91693fb38cd94af51f01f5db10ce36d1dd6816",
+  "apiVersion": 4,
+  "privilegesRequired": ["pMessageBusRemote"],
+  "depend": [
+      "hres_repository"
+    ],
+  "load": [
+      "js/jisc_event_bus.js"
+    ],
+  "respond": ["/do/jisc-event-bus"]
+}

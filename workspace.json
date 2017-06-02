@@ -1,0 +1,24 @@
+{
+  "autoUninstallPlugins": true,
+  "search": [
+    {
+      "path": ".",
+      "name": "Jisc RDSS"
+    },
+    {
+      "path": "../haplo-research-manager",
+      "name": "Haplo Research Manager",
+      "obtain": "Clone https://github.com/haplo-org/haplo-research-manager"
+    },
+    {
+      "path": "../haplo-repository",
+      "name": "Haplo Repository",
+      "obtain": "Clone https://github.com/haplo-org/haplo-repository"
+    },
+    {
+      "path": "../haplo-plugins",
+      "name": "Haplo Plugins",
+      "obtain": "Clone https://github.com/haplo-org/haplo-plugins"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+
+label hres:label:accepted-into-repository as AcceptedIntoRepository
+
+attribute hres:attribute:abstract as Abstract
+attribute std:attribute:file as File
