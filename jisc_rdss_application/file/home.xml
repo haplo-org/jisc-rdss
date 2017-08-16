@@ -1,0 +1,33 @@
+<doc>
+  <p>This demonstration system contains:</p>
+  <li>Randomly generated data about people and repository items.</li>
+  <li>The RDSS repository system schema.</li>
+  <li>Standard features for item upload, deposit review workflow, embargoes, access request workflow, OAI-PMH integration.</li>
+  <li>A example implementation of a public interface into the repository.</li>
+  <li>RDSS UUID generation and message bus implementation, which sends and receives messages on research item creation and update.</li>
+  <li>Dashboards for overview of repository items and processes.</li>
+    
+  <h1>Instructions</h1>
+  <li><b>Follow the instructions below to impersonate a Repository Editor.</b></li>
+  <li>Click the <i>"Repository"</i> button on the right to see the menus.</li>
+  <li>Use the <i>"Repository overview"</i> directory to find research outputs.</li>
+  <li>Finish the impersonation, and imperesonating an academic, click the <i>"My record"</i> button second on the home pages links directly to pages about your use of the system.</li>
+  <li>From their profile you can add research outputs to the system via <i>"Research outputs" >> "Add output"</i>.</li>
+  <li>They will only be visible to authors and repository editors until they have gone through the deposit review workflow, which is started after the item is created in the system.</li>
+  <li>When a workflow is in progress, it'll show who it's currently with on the right hand side. Impersonate the user to try the next step in the workflow, finding the users's active tasks in the <i>"Tasks"</i> tab at the top of the screen.</li>
+  <li>To see the notification emails the system would send, click the user name in the top right, then <i>"Test email viewer"</i>. (only available for repository administrator users)</li>
+  <li>For items with an Access Level of "Restricted", "Controlled", or "Safeguarded" users must submit an access request to download attached files.</li>
+  <li>This process can be started in the internal view by attempting to download a file, or through the public interface via the "Request access" option.</li>
+  <li>The files are sent to the requesting user through a link in an email sent at the end of the process.</li>
+
+  <h1>Impersonation</h1>
+  <p>To see the system from the perspective of different roles, and to try out each step of a workflow, you can impersonate other users.</p>
+
+  <p>To try out the system as another user:</p>
+  <li>Click the name of the current user in the top right of the screen</li>
+  <li>In the menu which appears, click <i>"Impersonate user"</i></li>
+  <li>Choose a user from the list, or type to search.</li>
+  <li>Click the <i>"Finish impersonation"</i> button at the top of the screen to return to the original user, or choose a icon in the top left to quickly switch between users you've previously impersonated.</li>
+
+  <p>Impersonation is only available to IT Support users in a live Haplo RM Repository system.</p>
+</doc>

@@ -1,5 +1,57 @@
 
 label hres:label:accepted-into-repository as AcceptedIntoRepository
 
+type std:type:person as Person
+type hres:type:research-institute:university as University
+
+type hres:type:audio as Audio
+type std:type:book as Book
+type hres:type:book-chapter as BookChapter
+type hres:type:composition as Composition
+type hres:type:exhibition as Exhibition
+type hres:type:journal-article as JournalArticle
+type hres:type:other as Other
+type hres:type:patent as Patent
+type hres:type:performance as Performance
+type hres:type:report as Report
+type hres:type:report:discussion-paper as DiscussionPaper
+type hres:type:report:project-report as ProjectReport
+type hres:type:report:technical-report as TechnicalReport
+type hres:type:report:working-paper as WorkingPaper
+type hres:type:software as Software
+type hres:type:thesis as Thesis
+type hres:type:video as Video
+type hres:type:website as Website
+type hres:type:dataset as Dataset
+
+qualifier hres:qualifier:print as Print
+qualifier hres:qualifier:online as Online
+
+qualifier hres:qualifier:accepted as Accepted
+qualifier hres:qualifier:completed as Completed
+qualifier hres:qualifier:deposited as Deposited
+
+attribute dc:attribute:author as Author
+attribute hres:attribute:authors-citation as AuthorsCitation
+
 attribute hres:attribute:abstract as Abstract
+attribute hres:attribute:researcher as Researcher
 attribute std:attribute:file as File
+attribute hres:attribute:license as License
+attribute hres:attribute:file-access-level as AccessLevel
+
+attribute hres:attribute:publication-dates as PublicationDates
+attribute hres:attribute:publication-process-dates as PublicationProcessDates
+
+attribute jisc:attribute:uuid-identifier as UUID
+    title: Jisc RDSS UUID Identifier
+    search-name: uuid
+    qualifier std:qualifier:null
+    data-type uuid
+
+OPTIONAL attribute hres:attribute:digital-object-identifier-doi as DOI
+OPTIONAL attribute haplo:attribute:twitter as Twitter
+
+attribute std:attribute:telephone as TelephoneNumber
+attribute std:attribute:email as EmailAddress
+

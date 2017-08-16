@@ -6,12 +6,21 @@
   "displayDescription": "Implementation of messaging protocol for the Jisc RSS event bus",
   "installSecret": "da91693fb38cd94af51f01f5db10ce36d1dd6816",
   "apiVersion": 4,
-  "privilegesRequired": ["pMessageBusRemote"],
+  "privilegesRequired": ["pMessageBusRemote", "pDatabase"],
   "depend": [
-      "hres_repository"
+      "hres_repository",
+      "hres_repo_schema_data_recommended",
+      "hres_repo_schema_outputs_recommended",
+      "hres_digital_object_identifier"
+    ],
+  "use": [
+      "hres:doi"
     ],
   "load": [
+      "js/jisc_schema.js",
+      "js/jisc_mappings.js",
+      "js/jisc_serializer.js",
+      "js/jisc_deserializer.js",
       "js/jisc_event_bus.js"
-    ],
-  "respond": ["/do/jisc-event-bus"]
+    ]
 }
